@@ -1,10 +1,6 @@
 # LSTM
 
-```
-Przygotował: Jarosław Ciołek-Żelechowski(218386)
-```
-
-Postęp prac: [GitHub](https://github.com/Torak28/Auto_Tag)
+![alt](https://media1.giphy.com/media/3oEjHYibHwRL7mrNyo/giphy.gif)
 
 ## Spis treści
 
@@ -73,13 +69,14 @@ dropout_rate = [0.0, 0.1, 0.2, 0.3]
  * **Klasy**: Still, Car, Train, Bus, Walking
 
 ```
-Accuracy: 0.6174724342663274
-Precision: 0.6246078280260899
-Recall: 0.6174724342663274
-F-score: 0.6179654363431908
+Accuracy: 0.6140797285835454
+Precision: 0.6198964274807803
+Recall: 0.6140797285835454
+F-score: 0.6133934749880708
 ```
 
-![xd](https://i.imgur.com/hSYVY9g.png)
+![xd](https://i.imgur.com/wGLaLom.png)
+![xd](https://i.imgur.com/CMhRqP4.png)
 
 Jak widać wyniki są całkiem dobre ale występuje dość dużo błędów. Wyniki są podobne do uzyskanych przez uczestników kagglowego konkursu.
 
@@ -92,13 +89,14 @@ Jak widać wyniki są całkiem dobre ale występuje dość dużo błędów. Wyni
  * **Klasy**: cooking, driving, sitting, sport, walking
 
 ```
-Accuracy: 0.6445497630331753
-Precision: 0.49757678260609955
-Recall: 0.6445497630331753
-F-score: 0.5616047976653925
+Accuracy: 0.7156398104265402
+Precision: 0.7001898703060021
+Recall: 0.7156398104265402
+F-score: 0.6924655561698452
 ```
 
-![xd](https://i.imgur.com/D4bqxFc.png)
+![xd]([3](https://i.imgur.com/zFQDOZx.png))
+![xd](https://i.imgur.com/Ya6OXfl.png)
 
 Bardzo słabe wyniki - mała ilość próbek(~1000) plus fakt że większość z nich opisuje tylko siedzenie.
 
@@ -110,13 +108,14 @@ Bardzo słabe wyniki - mała ilość próbek(~1000) plus fakt że większość z
  * **Klasy**: cooking, driving, sitting, sport, walking
 
 ```
-Accuracy: 0.8311525503408289
-Precision: 0.8090625205503664
-Recall: 0.8311525503408289
-F-score: 0.8139217211742709
+Accuracy: 0.8256679464075845
+Precision: 0.8019837507306017
+Recall: 0.8256679464075845
+F-score: 0.8077755176627621
 ```
 
-![xd](https://i.imgur.com/sba4QfD.png)
+![xd](https://i.imgur.com/fJs3d2f.png)
+![xd](https://i.imgur.com/ZsMdtvz.png)
 
 Lepsze wyniki - większa ilość próbek, niestety problemy z rozróżnianiem podobnych czynności np. siedzenie i jazda autem(podobne odczyty).
 
@@ -129,13 +128,14 @@ Lepsze wyniki - większa ilość próbek, niestety problemy z rozróżnianiem po
 
 
 ```
-Accuracy: 0.9215701637546031
-Precision: 0.9203272421196427
-Recall: 0.9215701637546031
-F-score: 0.9196046991366243
+Accuracy: 0.9233722479040978
+Precision: 0.9222713485808242
+Recall: 0.9233722479040978
+F-score: 0.9214489448164878
 ```
 
-![xd](https://i.imgur.com/I2g8mCi.png)
+![xd](https://i.imgur.com/Hpf2MpD.png)
+![xd](https://i.imgur.com/l2wagRG.png)
 
 Bardzo dobre wyniki - zwiększona została ilość próbek i ich różnorodność!
 
@@ -147,13 +147,14 @@ Bardzo dobre wyniki - zwiększona została ilość próbek i ich różnorodnoś�
  * **Klasy**: cooking, driving, sitting, sport, walking
 
 ```
-Accuracy: 0.9946841330865253
-Precision: 0.9946944728252107
-Recall: 0.9946841330865253
-F-score: 0.9946858959668322
+Accuracy: 0.9944468175993165
+Precision: 0.994453729472423
+Recall: 0.9944468175993165
+F-score: 0.9944474034543244
 ```
 
-![xd](https://i.imgur.com/W3Na8Hn.png)
+![xd](https://i.imgur.com/QcXvYJP.png)
+![xd](https://i.imgur.com/hGUPI1v.png)
 
 **data_real_5s_without_step_12_06.csv bez magnetometru**
 
@@ -163,13 +164,14 @@ F-score: 0.9946858959668322
  * **Klasy**: cooking, driving, sitting, sport, walking
 
 ```
-Accuracy: 0.9656367174521809
-Precision: 0.9657552597675314
-Recall: 0.9656367174521809
-F-score: 0.9655925614857553
+Accuracy: 0.9667283686933409
+Precision: 0.9669833994537878
+Recall: 0.9667283686933409
+F-score: 0.9667460550751522
 ```
 
-![xd](https://i.imgur.com/wOs3db2.png)
+![xd](https://i.imgur.com/7tiuCqd.png)
+![xd](https://i.imgur.com/RwJlmtQ.png)
 
 **data_real_5s_without_step_12_06.csv znormalizowane z magnetometrem**
 
@@ -180,13 +182,14 @@ F-score: 0.9655925614857553
 
 
 ```
-Accuracy: 0.9906497698039775
-Precision: 0.990666286511539
-Recall: 0.9906497698039775
-F-score: 0.9906509231757189
+Accuracy: 0.9923109782144383
+Precision: 0.9923284039832785
+Recall: 0.9923109782144383
+F-score: 0.9923121746829552
 ```
 
-![xd](https://i.imgur.com/kdANrvP.png)
+![xd](https://i.imgur.com/9ggwUe5.png)
+![xd](https://i.imgur.com/WMkBNWi.png)
 
 **data_real_5s_without_step_12_06.csv znormalizowane bez magnetometru**
 
@@ -197,34 +200,31 @@ F-score: 0.9906509231757189
 
 
 ```
-Accuracy: 0.9669656841805496
-Precision: 0.9670468280958601
-Recall: 0.9669656841805496
-F-score: 0.9669701535258015
+Accuracy: 0.9667283686933409
+Precision: 0.9668055698711079
+Recall: 0.9667283686933409
+F-score: 0.9667257747206576
 ```
 
-![xd](https://i.imgur.com/5yabllq.png)
+![xd](https://i.imgur.com/jdFX3kU.png)
+![xd](https://i.imgur.com/JcOwcY0.png)
 
 ### Najlepszy wynik
 
-**data_real_5s_without_step_12_06.csv znormalizowane z magnetometrem**
+**data_real_5s_without_step_12_06.csv z magnetometrem**
 
  * dane bez sygnatury czasowej(z racji jednak że przychodzą co 5s nie jest to potrzebne do LSTMa)
- * znormalizowane dane z opaski
+ * nieznormalizowane dane z opaski
  * **Pomiary**: akcelerometr, żyroskop, magnetometr
  * **Klasy**: cooking, driving, sitting, sport, walking
 
-
 ```
-Test loss: 0.0921
-Test accuracy: 0.967
-
-Accuracy: 0.9906497698039775
-Precision: 0.990666286511539
-Recall: 0.9906497698039775
-F-score: 0.9906509231757189
+Accuracy: 0.9944468175993165
+Precision: 0.994453729472423
+Recall: 0.9944468175993165
+F-score: 0.9944474034543244
 ```
 
-![xd](https://i.imgur.com/kdANrvP.png)
-
-![xd](https://i.imgur.com/02ucohy.png)
+![xd](https://i.imgur.com/QcXvYJP.png)
+![xd](https://i.imgur.com/hGUPI1v.png)
+![xd](https://i.imgur.com/w4zVvaI.png)
